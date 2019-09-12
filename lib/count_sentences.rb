@@ -5,15 +5,16 @@ class String
   def sentence?
     if self.end_with?(".")
       true
-    # "HI.".end_with?(".")
     else
       return false
     end
   end
 
   def question?
-    "What's your name?".end_with?("?")
-    "What's your name?".end_with?("!")
+    if self.end_with?("?")
+      true
+    else self.end_with?("!")
+      return false
   end
 
   def exclamation?
