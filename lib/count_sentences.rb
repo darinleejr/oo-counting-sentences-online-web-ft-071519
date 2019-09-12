@@ -5,7 +5,8 @@ class String
   def sentence?
     if "HI.".end_with?(".")
       true
-    elsif "HI!".end_with?(".")
+    # "HI!".end_with?(".")
+    else
       false
     end
   end
