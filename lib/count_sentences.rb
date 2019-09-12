@@ -7,7 +7,7 @@ class String
       true
     # "HI!".end_with?(".")
     else
-      false
+      return false
     end
   end
 
