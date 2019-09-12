@@ -19,8 +19,10 @@ class String
   end
 
   def exclamation?
-    "Hi, my name is Sophie!".end_with?("!")
-    "Hi, my name is Sophie.".end_with?("!")
+    self.end_with?("!")
+      true
+    self.end_with?("!")
+      return false
   end
 
   def count_sentences
