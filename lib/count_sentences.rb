@@ -15,6 +15,7 @@ class String
       true
     else self.end_with?("!")
       return false
+    end
   end
 
   def exclamation?
