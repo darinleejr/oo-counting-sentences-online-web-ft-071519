@@ -7,6 +7,7 @@ class String
       true
     elsif "HI!".end_with?(".")
       false
+    end
   end
 
   def question?
