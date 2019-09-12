@@ -27,8 +27,8 @@ class String
   end
 
   def count_sentences
-    "First sentence. Second sentence. Is this the third sentence?".scan(/[^\?.!]+[\?!.]/).map(&:strip).count
-    "First sentence".scan(/[^.!?]+[\.?!]/).map(&:strip).count
-    "First senctence. Second sentence. Is this the third sentence? I like this sentence!".scan(/[^\.?!]+[\.?!]/).map(&:strip).count
+    self.scan(/[^\?.!]+[\?!.]/).map(&:strip).count
+    self.scan(/[^.!?]+[\.?!]/).map(&:strip).count
+    self.scan(/[^\.?!]+[\.?!]/).map(&:strip).count
   end
 end
